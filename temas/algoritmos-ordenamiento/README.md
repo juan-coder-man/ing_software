@@ -67,4 +67,4 @@ Divide la secuencia en dos mitades, ordena cada mitad recursivamente (Merge Sort
 
 ---
 
-[← Volver al README principal](../README.md)
+[← Volver al README principal](../../README.md)

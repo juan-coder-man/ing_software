@@ -48,4 +48,4 @@ Hibernate es el ORM que implementa JPA y añade características propias: HQL co
 
 ---
 
-[← Volver al README principal](../README.md)
+[← Volver al README principal](../../README.md)

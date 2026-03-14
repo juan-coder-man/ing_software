@@ -70,4 +70,4 @@ SELECT SUM(valor) FROM numeros WHERE valor % 2 = 0;
 
 ---
 
-[← Volver al README principal](../README.md)
+[← Volver al README principal](../../README.md)

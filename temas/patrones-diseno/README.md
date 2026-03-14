@@ -482,4 +482,4 @@ class IteradorConcreto<T> implements Iterador<T> {
 
 ---
 
-[← Volver al README principal](../README.md)
+[← Volver al README principal](../../README.md)

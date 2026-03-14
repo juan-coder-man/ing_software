@@ -67,4 +67,4 @@ El código limpio es fácil de probar. Tests legibles (estructura tipo AAA: Arra
 
 ---
 
-[← Volver al README principal](../README.md)
+[← Volver al README principal](../../README.md)

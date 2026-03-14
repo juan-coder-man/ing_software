@@ -289,3 +289,7 @@ La clave está en:
 - Revisar y ajustar las decisiones arquitectónicas a medida que el producto y el equipo crecen.
 
 No se trata de encontrar “la mejor” arquitectura en abstracto, sino la más adecuada para el problema concreto que se quiere resolver.
+
+---
+
+[← Volver al README principal](../../README.md)
