@@ -1,7 +1,5 @@
 # Miscellaneous
 
-Other popular topics.
-
 ## Qué son
 
 En esta categoría entran temas que no encajan en una sola estructura o algoritmo: matemática discreta (teoría de números, combinatoria), bits y manipulación a nivel binario, geometría básica, simulaciones, y problemas que combinan varias ideas (greedy + estructuras, DP + grafos, etc.).

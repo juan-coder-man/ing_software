@@ -1,7 +1,5 @@
 # Search
 
-30% of companies test this subject.
-
 ## Qué son
 
 **Búsqueda** aquí se refiere a localizar un elemento o una posición en una estructura (array, árbol, grafo). Incluye búsqueda binaria en secuencias ordenadas, búsqueda en árboles (BST) y recorridos en grafos (BFS, DFS) cuando el objetivo es encontrar un nodo o un camino.

@@ -1,7 +1,5 @@
 # Trees
 
-12% of companies test this subject.
-
 ## Qué son
 
 Un **árbol** es un grafo conexo y acíclico. En entrevistas suele usarse el **árbol binario**: cada nodo tiene como máximo dos hijos (izquierdo y derecho). Variantes: árbol binario de búsqueda (BST), árbol balanceado (AVL, Red-Black), árbol completo o perfecto por niveles.

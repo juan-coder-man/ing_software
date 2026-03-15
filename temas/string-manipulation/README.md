@@ -1,7 +1,5 @@
 # String Manipulation
 
-40% of companies test this subject.
-
 ## Qué son
 
 Las **cadenas de caracteres** (strings) son secuencias inmutables en muchos lenguajes (Java, Python, JavaScript con primitivo). La manipulación incluye: comparación, búsqueda de subcadenas, concatenación, reversión, parsing y uso de estructuras auxiliares (mapas, conjuntos) para conteos o agrupaciones.

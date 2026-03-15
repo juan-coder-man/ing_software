@@ -1,7 +1,5 @@
 # Sorting
 
-40% of companies test this subject.
-
 ## Qué son
 
 **Ordenar** es reordenar una secuencia de elementos según un criterio (numérico, lexicográfico, etc.). En entrevistas suele usarse la ordenación como paso previo para aplicar búsqueda binaria, dos punteros o eliminar duplicados de forma eficiente.

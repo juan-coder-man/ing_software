@@ -1,7 +1,5 @@
 # Linked Lists
 
-8% of companies test this subject.
-
 ## Qué son
 
 Una **lista enlazada** es una estructura en la que cada nodo guarda un valor y una referencia al siguiente nodo (y opcionalmente al anterior, en listas doblemente enlazadas). No hay acceso por índice en O(1); el recorrido es secuencial. La cabeza (head) es la referencia al primer nodo.

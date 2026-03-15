@@ -1,7 +1,5 @@
 # Greedy Algorithms
 
-31% of companies test this subject.
-
 ## Qué son
 
 Un algoritmo **greedy** (voraz) toma en cada paso la decisión que parece mejor localmente, sin reconsiderar decisiones anteriores. No siempre lleva al óptimo global; cuando sí, suele haber una estructura (subestructura óptima + elección greedy) que lo justifica.

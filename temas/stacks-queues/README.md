@@ -1,7 +1,5 @@
 # Stacks and Queues
 
-17% of companies test this subject.
-
 ## Qué son
 
 - **Pila (stack):** estructura LIFO (Last In, First Out). Operaciones: push (añadir al tope), pop (quitar del tope), peek/top (ver el tope). Útil para paréntesis equilibrados, inversión, DFS iterativo, evaluación de expresiones.

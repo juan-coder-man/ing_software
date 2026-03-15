@@ -1,7 +1,5 @@
 # Recursion and Backtracking
 
-5% of companies test this subject.
-
 ## Qué son
 
 - **Recursión:** una función se llama a sí misma con argumentos “más pequeños” hasta llegar a un **caso base** que no hace más llamadas. Permite expresar problemas en términos de subproblemas del mismo tipo.

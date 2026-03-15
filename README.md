@@ -95,7 +95,6 @@ Repositorio para repasar conceptos fundamentales de ingeniería de software. Cad
 
 ### 13. Desafíos de algoritmos y estructuras de datos
 
-- [Warm-up Challenges](temas/warm-up-challenges/README.md)
 - [Arrays](temas/arrays/README.md)
 - [Dictionaries and Hashmaps](temas/dictionaries-hashmaps/README.md)
 - [Sorting](temas/sorting/README.md)

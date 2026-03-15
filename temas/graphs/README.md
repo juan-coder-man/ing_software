@@ -1,7 +1,5 @@
 # Graphs
 
-15% of companies test this subject.
-
 ## Qué son
 
 Un **grafo** es un conjunto de **nodos** (vértices) y **aristas** (edges) que conectan pares de nodos. Puede ser dirigido o no dirigido, ponderado o no. Se representa con listas de adyacencia (por nodo, lista de vecinos) o matriz de adyacencia.

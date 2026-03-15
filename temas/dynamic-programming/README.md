@@ -1,7 +1,5 @@
 # Dynamic Programming
 
-27% of companies test this subject.
-
 ## Qué son
 
 **Programación dinámica (DP)** resuelve problemas dividiéndolos en subproblemas más pequeños y reutilizando las soluciones de esos subproblemas (evitando recalcular). Requiere **subestructura óptima** (un óptimo del problema incluye óptimos de subproblemas) y **subproblemas superpuestos** (los mismos subproblemas aparecen muchas veces).

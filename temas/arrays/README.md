@@ -1,7 +1,5 @@
 # Arrays
 
-70% of companies test this subject.
-
 ## Qué son
 
 Un **array** (arreglo) es una estructura de datos que almacena elementos del mismo tipo en posiciones contiguas de memoria, accesibles por un índice numérico (0-based en la mayoría de lenguajes). Permite acceso directo en O(1) por índice.

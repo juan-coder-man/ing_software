@@ -1,7 +1,5 @@
 # Dictionaries and Hashmaps
 
-40% of companies test this subject.
-
 ## Qué son
 
 Un **diccionario** (mapa, hash map, tabla hash) es una estructura que asocia **claves** a **valores**. La implementación típica con función hash permite búsqueda, inserción y borrado en tiempo promedio O(1). Las claves suelen ser únicas.
