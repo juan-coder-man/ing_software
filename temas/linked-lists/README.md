@@ -88,3 +88,7 @@ ListNode nthFromEnd(ListNode head, int n) {
 - Dos punteros (rápido/lento) para centro, ciclo, n-ésimo desde el final.
 - Reversión de una porción (por ejemplo, invertir cada k nodos).
 - Unir dos listas ordenadas: comparar cabezas y enlazar la menor; útil para merge sort de listas.
+
+---
+
+[← Volver al README principal](../../README.md)

@@ -17,7 +17,7 @@ El **OWASP Top 10** es una lista de los riesgos de seguridad más críticos en a
 | **A09 Security Logging and Monitoring Failures**   | Falta de registro o detección de incidentes.                      | Logs de autenticación y acceso; alertas ante anomalías; no registrar datos sensibles en claro.                   |
 | **A10 Server-Side Request Forgery (SSRF)**         | La aplicación hace peticiones a URLs controladas por el atacante. | Validar y restringir destinos (whitelist); no reenviar cabeceras sensibles; segmentar red.                       |
 
-La lista se revisa periódicamente; conviene consultar la versión actual en [owasp.org](https://owasp.org/Top10/). Integrar estas prácticas en diseño, code review y pruebas de seguridad reduce la superficie de ataque.
+La lista se revisa periódicamente; conviene consultar la versión actual en [owasp.org](https://owasp.org/www-project-top-ten/). Integrar estas prácticas en diseño, code review y pruebas de seguridad reduce la superficie de ataque.
 
 ---
 

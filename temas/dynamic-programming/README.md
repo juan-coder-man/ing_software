@@ -78,3 +78,7 @@ int lcs(String a, String b) {
 - “Máximo / mínimo de …” o “cuántas formas de …” con subproblemas que se repiten → plantear estado y transición.
 - Empezar con recurrencia recursiva y luego pasar a tabla (o memoización).
 - Si el estado es 2D y solo depende de la fila anterior, probar a comprimir a 1D o dos vectores.
+
+---
+
+[← Volver al README principal](../../README.md)

@@ -53,3 +53,7 @@ int sumWithPrefix(int[] prefix, int left, int right) {
 - Ventana deslizante (subarray de longitud fija o variable).
 - Prefijos y sufijos (sumas, máximos, mínimos).
 - Ordenación in-place, rotación, búsqueda en array rotado.
+
+---
+
+[← Volver al README principal](../../README.md)

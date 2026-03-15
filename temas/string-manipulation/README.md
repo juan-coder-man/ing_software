@@ -78,3 +78,7 @@ boolean areAnagrams(String a, String b) {
 - Mapa o array de conteo para frecuencias de caracteres.
 - `StringBuilder` para construir resultado sin copias cuadráticas.
 - Parsing: recorrer carácter a carácter o por tokens (split, regex) según el formato.
+
+---
+
+[← Volver al README principal](../../README.md)

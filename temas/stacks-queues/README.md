@@ -86,3 +86,8 @@ void bfs(List<List<Integer>> graph, int start) {
 - “Procesar en orden de llegada” o “nivel a nivel” → queue.
 - “Máximo/mínimo en ventana deslizante” → deque monótona.
 - “Siempre el menor/mayor actual” → priority queue (heap).
+
+
+---
+
+[← Volver al README principal](../../README.md)

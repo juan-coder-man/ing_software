@@ -73,3 +73,8 @@ boolean isValidBST(TreeNode node, long min, long max) {
 - ¿Simétrico? ¿Balanceado? ¿BST? → recorrido y condiciones por nodo.
 - Camino máximo/suma: en cada nodo considerar “mejor camino que termina aquí” (incluyendo o no la raíz).
 - “Por niveles” → BFS con cola; a veces guardar nivel para agrupar.
+
+
+---
+
+[← Volver al README principal](../../README.md)

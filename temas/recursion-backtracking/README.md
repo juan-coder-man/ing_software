@@ -80,3 +80,8 @@ La “decisión” es “reina en (fila, col)”; el “deshacer” es quitar es
 - Lista o array mutable para la “solución actual”; al hacer backtrack, quitar el último elemento o restaurar valor.
 - Poda: si “lo que queda” no puede cumplir la restricción, no seguir por esa rama.
 - Problemas de “todas las soluciones” o “una solución” con restricciones → pensar en backtracking.
+
+
+---
+
+[← Volver al README principal](../../README.md)

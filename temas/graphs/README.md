@@ -94,3 +94,7 @@ List<Integer> topoSort(List<List<Integer>> graph) {
 - “Orden de tareas/dependencias” → DAG + orden topológico.
 - “Mínima distancia con pesos no negativos” → Dijkstra.
 - Matriz como grafo: cada celda es nodo, vecinos arriba/abajo/izq/der.
+
+---
+
+[← Volver al README principal](../../README.md)

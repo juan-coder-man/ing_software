@@ -63,3 +63,7 @@ Map<Character, Integer> countChars(String s) {
 - Subarray con suma/contenido dado: prefijos + mapa de “suma de prefijo” → índice.
 - Agrupar por alguna clave (anagramas: clave = cadena ordenada o histograma).
 - Comprobar duplicados o elementos en común entre dos colecciones.
+
+---
+
+[← Volver al README principal](../../README.md)

@@ -75,3 +75,7 @@ int popcount(int n) {
 - “Cuántas formas / contar bajo restricciones” → combinatoria o DP.
 - “Simular paso a paso” → bucles y estado claro; tests con casos pequeños.
 - Problemas raros: releer el enunciado, buscar invariantes o propiedades matemáticas simples.
+
+---
+
+[← Volver al README principal](../../README.md)

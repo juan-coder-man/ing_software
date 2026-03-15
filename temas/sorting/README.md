@@ -61,3 +61,7 @@ Arrays.sort(persons, Comparator
 - K-ésimo mayor/menor: QuickSelect O(n) promedio, o ordenar y tomar el índice (n-k).
 - Intervalos: ordenar por inicio (o fin) para fusionar o cubrir.
 - Anagramas: clave común = cadena ordenada; agrupar con mapa.
+
+---
+
+[← Volver al README principal](../../README.md)

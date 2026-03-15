@@ -85,3 +85,8 @@ int shortestPath(List<List<Integer>> graph, int start, int end) {
 - “Camino más corto” en grafo no ponderado → BFS.
 - “¿Alcanzable? / recorrer todos” → BFS o DFS.
 - “Minimizar el máximo” o “maximizar el mínimo” → a veces la respuesta se busca con binary search sobre el valor.
+
+
+---
+
+[← Volver al README principal](../../README.md)

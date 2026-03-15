@@ -61,3 +61,8 @@ boolean canJump(int[] nums) {
 - Ordenar y luego recorrer una vez.
 - Mantener un “estado” (último fin, alcance máximo, suma actual) y actualizarlo con la elección greedy.
 - Si el enunciado pide “máximo número”, “mínimo de algo” o “¿se puede?”, considerar si una elección local óptima conduce al global.
+
+
+---
+
+[← Volver al README principal](../../README.md)
