@@ -30,7 +30,10 @@ Repositorio para repasar conceptos fundamentales de ingeniería de software. Cad
 ### 4. Herramientas transversales
 
 - [Git: prácticas, comandos y flujos](temas/git-practicas-comandos/README.md)
+- [Gestión documental](temas/gestion-documental/README.md)
 - [Metodologías ágiles y Scrum](temas/metodologias-agiles-scrum/README.md)
+- [Criterios de aceptación funcionales y no funcionales, y historias de usuario](temas/criterios-aceptacion-hu/README.md)
+- [Reglas de diagramación para ingenieros de software](temas/diagramacion-ingenieria-software/README.md)
 
 ### 5. Java y ecosistema JVM
 
@@ -41,10 +44,12 @@ Repositorio para repasar conceptos fundamentales de ingeniería de software. Cad
 - [Método Abstracto vs Método Estático](temas/metodo-abstracto-vs-estatico/README.md)
 - [Funciones Anónimas y Expresiones Lambda](temas/funciones-anonimas-lambda/README.md)
 - [Ciclo de vida APP JAVA con Spring Boot](temas/ciclo-vida-spring-boot/README.md)
+- [Preguntas de entrevista Java](temas/java-preguntas-entrevista/README.md)
 
 ### 6. Persistencia y datos
 
 - [Diferencias entre Hibernate y JPA](temas/hibernate-vs-jpa/README.md)
+- [Buenas prácticas en base de datos](temas/buenas-practicas-base-datos/README.md)
 
 ### 7. Frontend: Angular
 
@@ -57,11 +62,13 @@ Repositorio para repasar conceptos fundamentales de ingeniería de software. Cad
 - [Flutter: ciclo de vida](temas/flutter-ciclo-vida/README.md)
 - [Flutter: gestores de estado](temas/flutter-gestores-estado/README.md)
 - [Flutter: navegación y preservación de datos](temas/flutter-navegacion-datos/README.md)
+- [Flutter: persistencia de datos](temas/flutter-persistencia-datos/README.md)
 - [Flutter: REST sin librerías](temas/flutter-rest-sin-librerias/README.md)
 - [Flutter: animaciones y MediaQuery](temas/flutter-animaciones-mediaqueries/README.md)
 - [Flutter: deep links](temas/flutter-deep-links/README.md)
 - [Flutter: almacenamiento seguro](temas/flutter-almacenamiento-seguro/README.md)
 - [Flutter: compilación y despliegue](temas/flutter-compilacion-despliegue/README.md)
+- [Flutter: rendimiento y herramientas de medición](temas/flutter-rendimiento-herramientas/README.md)
 
 ### 9. DevOps y CI/CD
 
@@ -79,8 +86,30 @@ Repositorio para repasar conceptos fundamentales de ingeniería de software. Cad
 
 - [Estrategias de caching](temas/estrategias-caching/README.md)
 - [Seguridad: OWASP Top 10](temas/seguridad-owasp-top-10/README.md)
+- [Seguridad en APIs y datos sensibles](temas/seguridad-general/README.md)
 - [Google Analytics](temas/google-analytics/README.md)
 
 ### 12. Otros lenguajes
 
 - [Lenguaje Go](temas/lenguaje-go/README.md)
+
+### 13. Desafíos de algoritmos y estructuras de datos
+
+- [Warm-up Challenges](temas/warm-up-challenges/README.md)
+- [Arrays](temas/arrays/README.md)
+- [Dictionaries and Hashmaps](temas/dictionaries-hashmaps/README.md)
+- [Sorting](temas/sorting/README.md)
+- [String Manipulation](temas/string-manipulation/README.md)
+- [Greedy Algorithms](temas/greedy-algorithms/README.md)
+- [Search](temas/search/README.md)
+- [Dynamic Programming](temas/dynamic-programming/README.md)
+- [Stacks and Queues](temas/stacks-queues/README.md)
+- [Graphs](temas/graphs/README.md)
+- [Trees](temas/trees/README.md)
+- [Linked Lists](temas/linked-lists/README.md)
+- [Recursion and Backtracking](temas/recursion-backtracking/README.md)
+- [Miscellaneous](temas/miscellaneous/README.md)
+
+### 14. Liderazgo y equipos
+
+- [Habilidades para liderar equipos](temas/liderazgo-equipos/README.md)

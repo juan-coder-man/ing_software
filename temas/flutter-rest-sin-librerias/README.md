@@ -51,6 +51,42 @@ Future<String> getRaw(String url) async {
 
 En web no existe `dart:io`; ahí se usa `http` (que usa el cliente del navegador) o APIs fetch. Para producción en móvil/desktop, `http` es la opción más simple y suficiente para la mayoría de APIs REST.
 
+## Con librerías (dio y otras)
+
+### dio
+
+**dio** es un cliente HTTP con más capacidades: **BaseOptions** para baseUrl, connectTimeout, receiveTimeout y headers por defecto; **interceptors** para añadir tokens, logging o transformar request/response; cancelación de peticiones; errores unificados en **DioException** (tipo, statusCode, response). Ejemplo equivalente al anterior:
+
+```dart
+import 'package:dio/dio.dart';
+import 'dart:convert';
+
+final dio = Dio(BaseOptions(
+  baseUrl: 'https://api.ejemplo.com',
+  connectTimeout: Duration(seconds: 5),
+  headers: {'Content-Type': 'application/json'},
+));
+
+Future<MiModelo> obtenerDato(String id) async {
+  final response = await dio.get('/items/$id');
+  if (response.statusCode == 200) {
+    return MiModelo.fromJson(response.data as Map<String, dynamic>);
+  }
+  throw DioException(requestOptions: response.requestOptions, response: response);
+}
+
+Future<void> enviarDato(MiModelo dato) async {
+  await dio.post('/items', data: dato.toJson());
+}
+```
+
+**Ventajas frente a `http`:** Interceptors (auth, logging, reintentos), timeouts configurables por instancia o por petición, transformadores, y manejo de errores con `DioException.type` (connectTimeout, response, etc.). Para APIs grandes con muchos endpoints puede usarse **retrofit** (generación de cliente REST desde anotaciones) sobre dio.
+
+### Cuándo usar qué
+
+- **http:** Proyectos pequeños, mínimo de dependencias, pocos endpoints y sin necesidad de interceptors.
+- **dio:** Proyectos con autenticación (token en header), varios dominios o endpoints, necesidad de interceptors, timeouts o manejo de errores más rico.
+
 ---
 
 [← Volver al README principal](../../README.md)

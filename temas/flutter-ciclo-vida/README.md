@@ -14,6 +14,15 @@ En Flutter es útil distinguir el ciclo de vida de un **widget** (sobre todo Sta
 | **deactivate()**            | El State se quita del árbol temporalmente (p. ej. navegación).                                                                                       |
 | **dispose()**               | Una vez, al eliminar el State de forma definitiva; cancelar controladores, suscripciones, listeners.                                                 |
 
+### Qué dispara un rebuild
+
+El **build()** se ejecuta cuando:
+
+1. **setState()** — Se llama desde el mismo `State`; el framework marca el widget como “dirty” y programa un rebuild en el siguiente frame.
+2. **Cambio de dependencias (InheritedWidget)** — Si un `InheritedWidget` del que depende este widget actualiza (p. ej. `Provider` notifica), primero se llama `didChangeDependencies()` y luego `build()`.
+3. **El padre reconstruye con un Widget nuevo** — Mismo tipo de widget pero instancia distinta; se llama `didUpdateWidget()` y después `build()`.
+4. **Inserción en el árbol** — La primera vez que el widget se monta, tras `initState()` y `didChangeDependencies()`, se llama `build()`.
+
 Regla práctica: **initState** para crear; **dispose** para limpiar. No llamar `setState` en dispose ni después de dispose.
 
 ## Ciclo de vida de la aplicación

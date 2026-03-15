@@ -14,6 +14,18 @@ Amazon Web Services (AWS) es una plataforma de cloud computing que ofrece infrae
 | **CloudFront**  | CDN y caché global                            | Sitios estáticos, streaming, reducir latencia             |
 | **DynamoDB**    | Base de datos NoSQL clave-valor/documento     | Alta escalabilidad, baja latencia, sin servidor           |
 
+## Cuándo usar cada cosa (como dev)
+
+- **EC2**: Cuando necesitas un servidor que tú controlas: API en Node/Java/Python, worker que corre 24/7, algo con estado en memoria. Si tu app es “un proceso que corre en un servidor”, suele ser EC2 (o contenedores encima).
+- **Lambda**: Cuando no quieres mantener servidores y tu lógica es por eventos o peticiones puntuales: “cuando llega un request”, “cuando se sube un archivo a S3”, “cada X minutos”. APIs simples, webhooks, procesar colas, jobs programados.
+- **S3**: Para guardar archivos: estáticos del front (HTML, JS, CSS, imágenes), backups, logs, artefactos de build, datos para análisis. Cualquier “objeto/binario que subes y bajas por URL”.
+- **RDS**: Cuando necesitas base de datos relacional (MySQL, PostgreSQL, etc.) y quieres que AWS gestione backups, parches y alta disponibilidad.
+- **API Gateway**: Cuando quieres exponer una API HTTP (REST o WebSocket) con URL pública, throttling, autenticación (API keys, JWT) y enrutar a Lambda o a otros servicios. Es el frontal de tu API.
+- **CloudFront**: Cuando quieres que tu contenido (páginas, assets, vídeo) se sirva rápido en todo el mundo y/o cachear respuestas. Típico: sitio estático (S3 + CloudFront), reducir carga al backend.
+- **DynamoDB**: Cuando necesitas base de datos NoSQL muy escalable, sin gestionar servidores, con latencia baja y acceso por clave. Bueno para sesiones, caché persistente, datos de alta escritura o modelos clave-valor/documento.
+
+Resumen rápido: “API sin servidor” → Lambda + API Gateway. “Archivos o front estático” → S3 (y CloudFront si quieres CDN). “Base SQL” → RDS. “Base NoSQL gestionada” → DynamoDB. “API con servidor siempre encendido” → EC2 (o contenedores).
+
 ## Buenas prácticas
 
 - Usar **IAM** con permisos mínimos por recurso y evitar claves de root en aplicaciones.

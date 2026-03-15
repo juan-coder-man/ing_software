@@ -23,11 +23,11 @@ Git es un sistema de control de versiones distribuido. Dominar los comandos prin
 
 ## Flujos de trabajo habituales
 
-| Flujo           | Idea principal                                                                | Uso típico                                 |
-| --------------- | ----------------------------------------------------------------------------- | ------------------------------------------ |
-| **Git Flow**    | Rama `main` estable, `develop` para integración; ramas feature/release/hotfix | Proyectos con releases versionados         |
-| **GitHub Flow** | Una rama principal (`main`); ramas cortas por feature y PR                    | Repos más simples, despliegue continuo     |
-| **Trunk-based** | Pocas ramas, integración muy frecuente en la troncal                          | Equipos que priorizan integración continua |
+| Flujo           | Idea principal                                                                                                                                                                         | Uso típico                                 |
+| --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
+| **Git Flow**    | Rama `main` (producción estable) y rama **develop** como rama de integración: las ramas feature se fusionan en `develop`; desde ahí se crean release/hotfix y luego se lleva a `main`. | Proyectos con releases versionados         |
+| **GitHub Flow** | Una rama principal (`main`); ramas cortas por feature y PR                                                                                                                             | Repos más simples, despliegue continuo     |
+| **Trunk-based** | Pocas ramas, integración muy frecuente en la troncal                                                                                                                                   | Equipos que priorizan integración continua |
 
 ## Buenas prácticas
 
